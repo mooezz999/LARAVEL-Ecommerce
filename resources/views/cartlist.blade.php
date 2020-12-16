@@ -11,6 +11,7 @@
 <a href="/">Go back to home page</a>
 <div class="trending-wrapper">
 <h3>Products Results</h3>
+<a class="btn btn-success" href="ordernow">Order now</a><br><br>
 @foreach ($products as $item)
 
 <div class="row searched-item cart-list-divider">
@@ -45,6 +46,10 @@
 </div>
 </div>
 @endforeach
+
+<a class="btn btn-success" href="ordernow">Order now</a><br><br>
+
+
 </div>
 </div>
 
