@@ -43,7 +43,10 @@ $total = ProductController::cartItem();
          
         </ul>
       </li>
-      @else<li><a href="/login">login</a></li>
+      @else
+      <li><a href="/login">login</a></li>
+      <li><a href="/register">Register</a></li>
+
       @endif
       </ul>
     </div><!-- /.navbar-collapse -->

@@ -42,3 +42,6 @@ Route::post("/orderplace",[ProductController::class,'orderPlace']);
 Route::get("/myorders",[ProductController::class,'myOrders']);
 
 
+Route::view('/register','register');
+
+Route::post("/register",[UserController::class,'register']);
